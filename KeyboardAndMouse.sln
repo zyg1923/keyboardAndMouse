@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5F95757E-36EF-423E-89FF-1AF36C1C539D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyboardAndMouse.Core", "src\KeyboardAndMouse.Core\KeyboardAndMouse.Core.csproj", "{0729D825-8900-4F04-8690-BF6CF4ACE70F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyboardAndMouse.Sender", "src\KeyboardAndMouse.Sender\KeyboardAndMouse.Sender.csproj", "{09DBBC16-965E-4BC2-B4B8-B2B6716095B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyboardAndMouse.Receiver", "src\KeyboardAndMouse.Receiver\KeyboardAndMouse.Receiver.csproj", "{69BC0D2A-ECF7-47F5-98EB-55646E31073C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyboardAndMouse.App", "src\KeyboardAndMouse.App\KeyboardAndMouse.App.csproj", "{CFE619FD-9F2E-4CC2-8EAA-345EDCF82F38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0729D825-8900-4F04-8690-BF6CF4ACE70F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0729D825-8900-4F04-8690-BF6CF4ACE70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0729D825-8900-4F04-8690-BF6CF4ACE70F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0729D825-8900-4F04-8690-BF6CF4ACE70F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09DBBC16-965E-4BC2-B4B8-B2B6716095B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09DBBC16-965E-4BC2-B4B8-B2B6716095B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09DBBC16-965E-4BC2-B4B8-B2B6716095B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09DBBC16-965E-4BC2-B4B8-B2B6716095B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69BC0D2A-ECF7-47F5-98EB-55646E31073C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69BC0D2A-ECF7-47F5-98EB-55646E31073C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69BC0D2A-ECF7-47F5-98EB-55646E31073C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69BC0D2A-ECF7-47F5-98EB-55646E31073C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFE619FD-9F2E-4CC2-8EAA-345EDCF82F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFE619FD-9F2E-4CC2-8EAA-345EDCF82F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFE619FD-9F2E-4CC2-8EAA-345EDCF82F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFE619FD-9F2E-4CC2-8EAA-345EDCF82F38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0729D825-8900-4F04-8690-BF6CF4ACE70F} = {5F95757E-36EF-423E-89FF-1AF36C1C539D}
+		{09DBBC16-965E-4BC2-B4B8-B2B6716095B2} = {5F95757E-36EF-423E-89FF-1AF36C1C539D}
+		{69BC0D2A-ECF7-47F5-98EB-55646E31073C} = {5F95757E-36EF-423E-89FF-1AF36C1C539D}
+		{CFE619FD-9F2E-4CC2-8EAA-345EDCF82F38} = {5F95757E-36EF-423E-89FF-1AF36C1C539D}
+	EndGlobalSection
+EndGlobal

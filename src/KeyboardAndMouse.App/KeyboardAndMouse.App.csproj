@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <RootNamespace>KeyboardAndMouse.App</RootNamespace>
+    <AssemblyName>KeyboardAndMouse</AssemblyName>
+    <Product></Product>
+    <Description>在发送端与接收端之间映射键盘鼠标</Description>
+    <ApplicationIcon>Assets\app.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KeyboardAndMouse.Core\KeyboardAndMouse.Core.csproj" />
+  </ItemGroup>
+</Project>
