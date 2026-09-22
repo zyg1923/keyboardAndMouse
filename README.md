@@ -1,6 +1,12 @@
 # 键鼠映射
 
-在发送端和接收端之间映射键盘、鼠标的 Windows 程序。界面在 `KeyboardAndMouse.App`，命令行发送端和接收端分别是 `KeyboardAndMouse.Sender`、`KeyboardAndMouse.Receiver`。默认端口 `9050`。
+仓库地址：https://github.com/zyg1923/keyboardAndMouse
+
+```powershell
+git clone https://github.com/zyg1923/keyboardAndMouse.git
+```
+
+在发送端和接收端之间映射键盘、鼠标的 Windows 程序。界面在 `KeyboardAndMouse.App`，命令行发送端和接收端分别是 `KeyboardAndMouse.Sender`、`KeyboardAndMouse.Receiver`。默认端口 `9050`。克隆后如何打包、缺了哪些文件，见下面的「打包可分发的程序」和「未入库的文件」。
 
 ## 环境
 
