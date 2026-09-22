@@ -7,3 +7,10 @@ publish/
 **/log/
 *.log
 settings.json
+
+# 编译结果（dotnet build / publish 生成，可重新编译）
+*.exe
+*.dll
+*.pdb
+*.deps.json
+*.runtimeconfig.json
